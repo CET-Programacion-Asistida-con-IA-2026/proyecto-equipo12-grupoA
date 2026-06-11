@@ -1,24 +1,48 @@
-## Grupo A/B - Equipo {numero}
+## Grupo A - Equipo {12}
 _Curso de Programación Asistida con IA - Chicas en Tecnología_ 🚀
 
-```⚠️ Dejar la opción correcta entre Grupo A (Grupo de 17 a 19hs) y Grupo B (Grupo de 19 a 21hs) y agregar el número de equipo ⚠️```
+# ❄️ GlaciAR
 
-En este repositorio, se presenta el sitio web realizado durante el curso de programación frontend de CET.
+## 📖 Descripción
 
-### 📄 Entregas
-**Entrega #1**: planificación de la solución y primeros resultados que obtengamos con la IA:
+GlaciAR es un sitio web que utiliza Inteligencia Artificial para informar y concientizar sobre la importancia de los glaciares y la Ley de Glaciares en Argentina.
 
-📝 Edición del Archivo README incluyendo:
-- Definición de la problemática que eligieron abordar
-- Relación con los *Objetivos de Desarrollo Sostenible (ODS)*[^1]
-- Explicación de la solución tecnológica que están desarrollando
-> [!TIP]
-> Aprovechen los [formatos del README](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para escribir diferentes secciones
+## 🎯 Problemática
 
-🎨 Moodboard
+Los glaciares son una fuente fundamental de agua dulce, pero están amenazados por el cambio climático y actividades extractivas. Además, muchas personas desconocen su importancia y las leyes que los protegen.
 
-🧩 Archivos generados con asistencia de IA: ```index.html```, ```style.css```, ```script.js```
+## 🌎 ODS Relacionados
 
+* ODS 6: Agua limpia y saneamiento.
+* ODS 13: Acción por el clima.
+* ODS 15: Vida de ecosistemas terrestres.
+
+## 👥 Público Objetivo
+
+* Estudiantes
+* Docentes
+* Jóvenes interesados en el ambiente
+* Organizaciones ambientales
+* Público en general
+
+## 💡 Funcionalidades
+
+* 🗺️ Mapa interactivo de glaciares.
+* 📜 Información sobre la Ley de Glaciares.
+* 📰 Noticias ambientales.
+* 🚨 Alertas sobre actividades que afectan los glaciares.
+* 💧 Calculadora de consumo de agua.
+
+## 🎨 Diseño
+
+* Colores: azul, crema y gris.
+* Botones interactivos.
+* Imágenes de glaciares.
+* Sitio organizado en secciones claras y accesibles.
+
+## 🌱 Objetivo
+
+Promover el cuidado del agua y la protección de los glaciares mediante información accesible, educación ambiental y herramientas interactivas.
 
 **Entrega #2 (Final)**: se esperan modificaciones en el código respecto a la entrega anterior, que pueden incluir nuevos archivos o extensión de los existentes (debe haber al menos un archivo de cada lenguaje visto - HTML, CSS y Javascript)
 
