@@ -32,6 +32,7 @@ Los glaciares son una fuente fundamental de agua dulce, pero están amenazados p
 * 📰 Noticias ambientales.
 * 🚨 Alertas sobre actividades que afectan los glaciares.
 * 💧 Calculadora de consumo de agua.
+* ✍️ Comentarios de la comunidad: permite a los usuarios dejar opiniones y sugerencias relacionadas con la protección de los glaciares.
 
 ## 🎨 Diseño
 
