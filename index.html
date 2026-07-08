@@ -14,7 +14,7 @@
   <div class="notif-bar" id="notifBar">
     <span class="notif-dot"></span>
     <span id="notifText">🔔 Alerta: Se detectaron nuevas actividades mineras en zona de glaciares patagónicos — <strong>Leer más</strong></span>
-    <button class="notif-close" onclick="document.getElementById('notifBar').style.display='none'" aria-label="Cerrar notificación">✕</button>
+    <button id="notif-close" class="notif-close"  aria-label="Cerrar notificación">✕</button>
   </div>
 
   <!-- Header / Hero -->
@@ -220,25 +220,25 @@
         <div class="sol-number">01</div>
         <h3>Informate y difundí</h3>
         <p>Compartí información verificada sobre el estado de los glaciares en tu red. El conocimiento ciudadano es la primera línea de defensa.</p>
-        <button class="sol-btn" onclick="window.location.href='#problematica'">Ver recursos ↗</button>
+        <button id="CompartirInfo" class="sol-btn">Ver recursos ↗</button>
       </div>
       <div class="solution-card" id="sol-2">
         <div class="sol-number">02</div>
         <h3>Exigí cumplimiento legal</h3>
         <p>Reclamá a tus representantes que la Ley de Glaciares Nº 26.639 se aplique efectivamente con presupuesto y controles reales.</p>
-        <button class="sol-btn" onclick="window.location.href='#formulario'">Cómo participar ↗</button>
+        <button id="CumplimientoLegal" class="sol-btn">Cómo participar ↗</button>
       </div>
       <div class="solution-card" id="sol-3">
         <div class="sol-number">03</div>
         <h3>Reducí tu huella hídrica</h3>
         <p>Cada litro cuenta. Revisá tus hábitos de consumo de agua y adoptá prácticas que reduzcan el impacto ambiental en tu vida cotidiana.</p>
-        <button class="sol-btn" onclick="window.location.href='#calculadora-de-agua'">Calculadora ↗</button>
+        <button id="ReduciHuella" class="sol-btn">Calculadora ↗</button>
       </div>
       <div class="solution-card" id="sol-4">
         <div class="sol-number">04</div>
         <h3>Apoyá organizaciones</h3>
         <p>Conectate con ONGs y colectivos ambientales que trabajan por la protección glaciar. La acción colectiva genera resultados tangibles.</p>
-        <button class="sol-btn" onclick="window.location.href='#ongs'">Ver organizaciones ↗</button>
+        <button id="ApoyaOrganizaciones" class="sol-btn">Ver organizaciones ↗</button>
       </div>
     </div>
 
@@ -268,7 +268,7 @@
           <span class="calc-unit">× 15 L</span>
         </div>
       </div>
-      <button class="calc-btn" onclick="calcularAgua()">Calcular mi consumo</button>
+      <button id="calcularAgua" class="calc-btn">Calcular mi consumo</button>
       <div class="calc-result" id="calcResult"></div>
     </div>
   </section>
@@ -306,7 +306,7 @@
           <label for="comentario">Tu comentario o reflexión</label>
           <textarea id="comentario" rows="5" placeholder="¿Qué pensás sobre la situación de los glaciares? ¿Tenés alguna propuesta?"></textarea>
         </div>
-        <button class="submit-btn" id="submitBtn" onclick="enviarFormulario()">
+        <button class="submit-btn" id="submitBtn">
           <span id="btnText">Enviar comentario</span>
         </button>
         <div id="formMsg" class="form-msg"></div>

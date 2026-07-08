@@ -144,3 +144,24 @@ revealEls.forEach((el, i) => {
   el.style.transition = `opacity 0.5s ease ${i * 0.05}s, transform 0.5s ease ${i * 0.05}s`;
   observer.observe(el);
 });
+document.getElementById('notif-close').addEventListener('click',function(){
+  document.getElementById('notifBar').style.display='none';
+})
+document.getElementById('CompartirInfo').addEventListener('click',function(){
+  "window.location.href='#problematica'";
+});
+document.getElementById('CumplimientoLegal').addEventListener('click',function(){
+  onclick="window.location.href='#formulario'"
+})
+document.getElementById('ReduciHuella').addEventListener('click',function(){
+  onclick="window.location.href='#calculadora-de-agua'"
+})
+document.getElementById('ApoyaOrganizaciones').addEventListener('click',function(){
+  onclick="window.location.href='#ongs'"
+})
+document.getElementById('submitBtn').addEventListener('click',function(){
+  onclick="enviarFormulario()"
+})
+document.getElementById('calcularAgua').addEventListener('click',function(){
+  onclick="calcularAgua()"
+})
