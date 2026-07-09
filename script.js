@@ -147,21 +147,21 @@ revealEls.forEach((el, i) => {
 document.getElementById('notif-close').addEventListener('click',function(){
   document.getElementById('notifBar').style.display='none';
 })
-document.getElementById('CompartirInfo').addEventListener('click',function(){
-  "window.location.href='#problematica'";
+document.getElementById('CompartirInfo').addEventListener('click', function(){
+  window.location.href='#problematica';
 });
-document.getElementById('CumplimientoLegal').addEventListener('click',function(){
-  onclick="window.location.href='#formulario'";
+document.getElementById('CumplimientoLegal').addEventListener('click', function(){
+  window.location.href='#formulario';
 });
-document.getElementById('ReduciHuella').addEventListener('click',function(){
-  onclick="window.location.href='#calculadora-de-agua'";
+document.getElementById('ReduciHuella').addEventListener('click', function(){
+  window.location.href='#calculadora-de-agua';
 });
-document.getElementById('ApoyaOrganizaciones').addEventListener('click',function(){
-  onclick="window.location.href='#ongs'";
+document.getElementById('ApoyaOrganizaciones').addEventListener('click', function(){
+  window.location.href='#ongs';
 });
-document.getElementById('submitBtn').addEventListener('click',function(){
-  onclick="enviarFormulario()";
+document.getElementById('submitBtn').addEventListener('click', function(){
+  enviarFormulario();
 });
-document.getElementById('calcularAgua').addEventListener('click',function(){
-  onclick="calcularAgua()";
+document.getElementById('calcularAgua').addEventListener('click', function(){
+  calcularAgua();
 });
