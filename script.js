@@ -27,11 +27,10 @@ glaciarItems.forEach(item => {
 
 // ===== NOTIF BAR rotación de mensajes =====
 const notifMessages = [
-  '🔔 Alerta: Se detectaron nuevas actividades mineras en zona de glaciares patagónicos — <strong>Leer más</strong>',
-  '🧊 Dato: El glaciar Upsala retrocedió 5 km en los últimos 10 años — <strong>Ver mapa</strong>',
-  '📋 Ley de Glaciares: Solo el 40% de las zonas protegidas tienen monitoreo activo — <strong>Informate</strong>',
-  '💧 ¿Sabías? Los glaciares abastecen de agua dulce a más de 2 millones de argentinos — <strong>Más info</strong>',
-];
+  '🔔 Alerta: Se detectaron nuevas actividades mineras en zona de glaciares patagónicos — <a href="https://www.bbc.com/mundo/articles/c5yvjk178zgo">Leer más</strong>',
+  '🧊 Dato: El glaciar Upsala retrocedió 5 km en los últimos 10 años — <a href="#mapa">Ver mapa</a>',
+  '💧 ¿Sabías? Los glaciares abastecen de agua dulce a más de 2 millones de argentinos — <a href="https://www.greenpeace.org/argentina/blog/problemas/climayenergia/urgente-no-sacrifiquen-la-ley-de-glaciares-el-agua-no-se-negocia-ni-se-entrega/">Más info</strong>',
+]
 let notifIdx = 0;
 const notifText = document.getElementById('notifText');
 
@@ -47,6 +46,7 @@ setInterval(() => {
 }, 6000);
 
 if (notifText) {
+
   notifText.style.transition = 'opacity 0.3s';
 }
 
